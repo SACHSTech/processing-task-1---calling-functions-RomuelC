@@ -27,6 +27,10 @@ public class Sketch extends PApplet {
 	// sample code, delete this stuff
     stroke(60);
     
+    // Grass
+    fill(31, 120, 13);
+    rect(0, 400, 500, 100);
+    
     // Church
     fill(148, 62, 9);
     rect(200, 300, 200, 300);
@@ -35,13 +39,9 @@ public class Sketch extends PApplet {
     fill(15, 15, 15);
     rect(275, 450, 50, 70);  
     
-    // Left Roof
-    fill(15, 15, 15);
-    line(300, 10, 200, 300);
-    
-    // Right Roof
-    fill(15, 15, 15);
-    line(300, 10, 400, 300);
+    // Roof
+    fill(123, 135, 120);
+    triangle(300, 10, 200, 300, 400, 300);
     
     // Cross Y
     line(300, 120, 300, 200);  
